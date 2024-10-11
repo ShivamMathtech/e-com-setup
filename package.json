@@ -1,0 +1,19 @@
+{
+  "name": "ecom-setup",
+  "version": "1.1np.0",
+  "description": "Provide the required common file structure of the E-commerce website",
+  "main": "index.js",
+  "scripts": {
+    "ecom-setup": "./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ecom-setup": "./index.js"
+  },
+  "dependencies": {
+    "fs": "latest",
+    "path": "latest"
+  },
+  "author": "Shivam Singh",
+  "license": "MIT"
+}

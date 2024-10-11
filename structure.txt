@@ -1,0 +1,40 @@
+ecommerce-website/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   └── ProductCard.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── ProductDetails.js
+│   │   ├── Cart.js
+│   │   └── Checkout.js
+│   ├── assets/
+│   ├── services/
+│   │   └── apiService.js
+│   ├── utils/
+│   │   └── formatCurrency.js
+│   ├── hooks/
+│   │   └── useCart.js
+│   ├── context/
+│   │   └── AuthContext.js
+│   ├── redux/
+│   │   ├── actions/
+│   │   │   └── cartActions.js
+│   │   ├── reducers/
+│   │   │   └── cartReducer.js
+│   │   └── store/
+│   │       └── store.js
+│   ├── styles/
+│   │   └── global.css
+│   ├── api/
+│   ├── index.js
+│   └── App.js
+├── .env
+├── .gitignore
+├── webpack.config.js
+├── babel.config.js
+└── README.md
